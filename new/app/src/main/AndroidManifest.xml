@@ -10,7 +10,8 @@
         android:theme="@style/Theme.Newww">
 
         <!-- This makes LoginActivity the first screen -->
-        <activity android:name=".LoginActivity">
+        <activity android:name=".LoginActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
